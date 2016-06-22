@@ -25,13 +25,13 @@ class ViewController: UIViewController {
     }
     @IBAction func cheng(sender: AnyObject) {
         var temp=0
-        temp=(Int)(x.text!)!*(Int)(y.text!)!
+        temp=(Int)(x.text!)!＊(Int)(y.text!)!
         z.text="\(temp)"
     }
   
     @IBAction func chu(sender: AnyObject) {
         var temp=0
-        temp=(Int)(x.text!)!/(Int)(y.text!)!
+        temp=(Int)(x.text!)!／(Int)(y.text!)!
         z.text="\(temp)"
     }
     override func viewDidLoad() {
